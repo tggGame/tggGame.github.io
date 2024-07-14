@@ -22,14 +22,22 @@ alert(tgWebAppDataEncoded);
 if (tgWebAppDataEncoded) {
     // URL 解码 tgWebAppData 参数
 	const decodedData = decodeURIComponent(decodeURIComponent(tgWebAppDataEncoded));
-	alert(decodedData);
-    // 解析 JSON 数据
-    const jsonData = JSON.parse(decodedData);
-    
-    // 获取用户语言设置
-    const userLanguage = jsonData.user.language_code;
-    
-    alert(userLanguage);
+
+	// 解析查询字符串
+	const tgWebAppParams = new URLSearchParams(secondDecode);
+	// 获取 user 参数
+	const userParam = tgWebAppParams.get('user');
+	if (userParam) {
+        // 解析 JSON 数据
+        const userData = JSON.parse(userParam);
+            
+        // 获取用户语言设置
+        const userLanguage = userData.language_code;
+		const userId = userData.id;
+        alert(userLanguage);
+    } else {
+        console.error('User data not found');
+    }
 } else {
     console.log('tgWebAppData not found in URL fragment');
 }
