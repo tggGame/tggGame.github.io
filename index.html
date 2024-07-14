@@ -9,6 +9,7 @@ console.log('browser', browserLanguage);
 
 const urlParams = new URLSearchParams(window.location.search);
 const initData = urlParams.get('tgWebAppData');
+alert(window.location.search);
 if (initData) {
     // Base64 解码 initData
     const decodedData = atob(initData);
