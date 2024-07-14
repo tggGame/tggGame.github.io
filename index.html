@@ -11,6 +11,7 @@ const hash = window.location.hash;
 const cleanHash = hash.startsWith('#') ? hash.substring(1) : hash;
 const urlParams = new URLSearchParams(cleanHash);
 const initData = urlParams.get('tgWebAppData');
+alert(initData);
 if (initData) {
     // Base64 解码 initData
     const decodedData = atob(initData);
