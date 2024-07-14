@@ -7,18 +7,20 @@ layout: default
 var browserLanguage = navigator.language || navigator.userLanguage;
 console.log('browser', browserLanguage);
 
-// 获取URL参数的函数
-function getQueryParameter(name) {
-    name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
-    var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
-    var results = regex.exec(location.search);
-    return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+const urlParams = new URLSearchParams(window.location.search);
+const initData = urlParams.get('tgWebAppData');
+if (initData) {
+    // Base64 解码 initData
+    const decodedData = atob(initData);
+    
+    // 解析 JSON 数据
+    const jsonData = JSON.parse(decodedData);
+    
+    // 获取用户语言设置
+    const userLanguage = jsonData.user.language_code;
+    
+    alert(userLanguage);
 }
-
-// 获取Telegram传递的语言参数
-var telegramLanguage = getQueryParameter('lang');
-alert(location.search);
-
 		</script>	
 <!-- Banner -->
 	<section id="banner">
