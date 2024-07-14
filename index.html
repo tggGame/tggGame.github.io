@@ -2,7 +2,24 @@
 title: Telegram Game Center
 layout: default
 ---
-			
+		<script>
+			// 获取浏览器的语言
+var browserLanguage = navigator.language || navigator.userLanguage;
+console.log('browser', browserLanguage);
+
+// 获取URL参数的函数
+function getQueryParameter(name) {
+    name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+    var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+    var results = regex.exec(location.search);
+    return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+}
+
+// 获取Telegram传递的语言参数
+var telegramLanguage = getQueryParameter('lang');
+console.log('telegram', telegramLanguage);
+
+		</script>	
 <!-- Banner -->
 	<section id="banner">
 		<header>
