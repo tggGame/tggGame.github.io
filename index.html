@@ -18,14 +18,11 @@ const urlParams = new URLSearchParams(cleanHash);
 
 // 获取 tgWebAppData 参数
 const tgWebAppDataEncoded = urlParams.get('tgWebAppData');
-
+alert(tgWebAppDataEncoded);
 if (tgWebAppDataEncoded) {
     // URL 解码 tgWebAppData 参数
-    const tgWebAppDataDecoded = decodeURIComponent(tgWebAppDataEncoded);
-    
-    // Base64 解码 tgWebAppData 参数
-    const decodedData = decodeURIComponent(tgWebAppDataDecoded);
-    
+	const decodedData = decodeURIComponent(decodeURIComponent(tgWebAppDataEncoded));
+	alert(decodedData);
     // 解析 JSON 数据
     const jsonData = JSON.parse(decodedData);
     
