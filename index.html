@@ -9,6 +9,7 @@ console.log('browser', browserLanguage);
 
 const hash = window.location.hash;
 
+alert(hash);
 let cleanHash = hash.startsWith('#') ? hash.substring(1) : hash;
 cleanHash = decodeURIComponent(cleanHash);
 const urlParams = new URLSearchParams(cleanHash);
