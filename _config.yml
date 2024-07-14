@@ -2,3 +2,4 @@ name: Telegram Game Center
 description: Helping You Discover the Most Fun and Profitable Games!
 paginate: 10
 baseurl: '/'
+language_default: en
