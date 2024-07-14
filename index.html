@@ -7,9 +7,9 @@ layout: default
 var browserLanguage = navigator.language || navigator.userLanguage;
 console.log('browser', browserLanguage);
 
-const urlParams = new URLSearchParams(window.location.search);
+const urlParams = new URLSearchParams(window.location.href);
 const initData = urlParams.get('tgWebAppData');
-alert(window.location.search);
+alert(window.location.href);
 if (initData) {
     // Base64 解码 initData
     const decodedData = atob(initData);
