@@ -22,7 +22,7 @@ if (tgWebAppDataEncoded) {
 	const decodedData = decodeURIComponent(decodeURIComponent(tgWebAppDataEncoded));
 
 	// 解析查询字符串
-	const tgWebAppParams = new URLSearchParams(secondDecode);
+	const tgWebAppParams = new URLSearchParams(decodedData);
 	// 获取 user 参数
 	const userParam = tgWebAppParams.get('user');
 	if (userParam) {
