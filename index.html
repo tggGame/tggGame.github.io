@@ -8,8 +8,9 @@ var browserLanguage = navigator.language || navigator.userLanguage;
 console.log('browser', browserLanguage);
 
 const hash = window.location.hash;
-const cleanHash = hash.startsWith('#') ? hash.substring(1) : hash;
-alert(cleanHash)
+
+let cleanHash = hash.startsWith('#') ? hash.substring(1) : hash;
+cleanHash = decodeURIComponent(cleanHash);
 const urlParams = new URLSearchParams(cleanHash);
 alert(JSON.stringify(urlParams))
 const initData = urlParams.get('tgWebAppData');
