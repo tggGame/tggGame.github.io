@@ -3,3 +3,8 @@ description: Helping You Discover the Most Fun and Profitable Games!
 paginate: 10
 baseurl: '/'
 language_default: cn
+plugins:
+  - jekyll-multiple-languages-plugin   
+languages: ["en","zh","de","fr"]
+exclude_from_localizations: ["javascript", "images", "css"]
+default_locale_in_subfolder: true
