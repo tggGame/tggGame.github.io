@@ -2,45 +2,6 @@
 title: Telegram Game Center
 layout: default
 ---
-		<script>
-			// 获取浏览器的语言
-var browserLanguage = navigator.language || navigator.userLanguage;
-
-// 获取 URL fragment 部分
-const hash = window.location.hash;
-
-// 去掉开头的 '#' 字符
-const cleanHash = hash.startsWith('#') ? hash.substring(1) : hash;
-
-// 解析参数
-const urlParams = new URLSearchParams(cleanHash);
-
-// 获取 tgWebAppData 参数
-const tgWebAppDataEncoded = urlParams.get('tgWebAppData');
-if (tgWebAppDataEncoded) {
-    // URL 解码 tgWebAppData 参数
-	const decodedData = decodeURIComponent(decodeURIComponent(tgWebAppDataEncoded));
-
-	// 解析查询字符串
-	const tgWebAppParams = new URLSearchParams(decodedData);
-	// 获取 user 参数
-	const userParam = tgWebAppParams.get('user');
-	if (userParam) {
-        // 解析 JSON 数据
-        const userData = JSON.parse(userParam);
-            
-        // 获取用户语言设置
-        const userLanguage = userData.language_code;
-		const userId = userData.id;
-        alert(userLanguage);
-    } else {
-        console.error('User data not found');
-    }
-} else {
-    console.log('tgWebAppData not found in URL fragment');
-}
-
-		</script>	
 <!-- Banner -->
 	<section id="banner">
 		<header>
@@ -56,7 +17,7 @@ if (tgWebAppDataEncoded) {
 				<section class="4u">
 					<div class="box highlight">
 						<i class="icon major fa-paper-plane"></i>
-						<h3>边玩边赚</h3>
+						<h3> {{ translation.play-to-earn }}</h3>
 						<p>边玩游戏边赚挖矿，可以让你暴富的小游戏</p>
 					</div>
 				</section>
