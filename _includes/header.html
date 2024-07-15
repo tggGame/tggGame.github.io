@@ -73,6 +73,8 @@
 	<body>
 
 		<div id="language-placeholder" style="display:none;">{{ site.language_default }}</div>
+		{% assign translation = site.data[language] %}
+	{{ translation.play-to-earn }}
 		<!-- Header -->
 			<div id="header">
 						
