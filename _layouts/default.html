@@ -39,10 +39,11 @@
 		}
 
 		language = languageMappings[language] ? languageMappings[language] : "{{ site.language_default }}";
+
+		const siteData = "{{ site.data }}";
+		const translation = siteData[language];
 	}
 	</script>
-	{% assign translation = site.data[language] %}
-	{{ language }}
-	{{ translation.play-to-earn }}
+	a{{ translation.play-to-earn }}b
 	{{ content }}
 {% include footer.html %}
