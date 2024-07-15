@@ -34,7 +34,7 @@
 			}
 		}
 	}
-	translation = site.data[language]
-	</script>	
+	</script>
+	{{% assign translation = site.data[language] %}}
 	{{ content }}
 {% include footer.html %}
