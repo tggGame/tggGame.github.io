@@ -40,7 +40,7 @@
 
 		language = languageMappings[language] ? languageMappings[language] : "{{ site.language_default }}";
 
-		const siteData = JSON.parse('{{ site.data | jsonify }}');
+		const siteData = '{{ site.data}}';
 		const translation = siteData[language];
 		console.log(translation);
 	}
