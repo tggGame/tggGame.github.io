@@ -37,14 +37,13 @@
 				const userId = userData.id;
 			}
 		}
-
-		language = languageMappings[language] ? languageMappings[language] : "{{ site.language_default }}";
-
-		const siteData = '{{ site.data}}';
-		const translation = siteData[language];
-		console.log(siteData, translation);
 	}
+	language = languageMappings[language] ? languageMappings[language] : "{{ site.language_default }}";
+
+	const siteData = '{{ site.data}}';
+	const translation = siteData[language];
+	console.log(siteData, translation);
 	</script>
-	a{{ translation.play-to-earn }}bcd
+	a{{ translation.play-to-earn }}bcde
 	{{ content }}
 {% include footer.html %}
