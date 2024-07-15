@@ -40,10 +40,11 @@
 
 		language = languageMappings[language] ? languageMappings[language] : "{{ site.language_default }}";
 
-		const siteData = "{{ site.data }}";
+		const siteData = JSON.parse('{{ site.data | jsonify }}');
 		const translation = siteData[language];
+		console.log(translation);
 	}
 	</script>
-	a{{ translation.play-to-earn }}b
+	a{{ translation.play-to-earn }}bc
 	{{ content }}
 {% include footer.html %}
