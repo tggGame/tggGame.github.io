@@ -1,5 +1,9 @@
 {% include header.html %}
 <script>
+	const languageMappings = {
+		'zh-CN': 'cn',
+		'zh': 'cn'
+	}
 	let language = "{{ site.language_default }}";
 	// 获取浏览器的语言
 	if(navigator.language || navigator.userLanguage) {
@@ -33,8 +37,9 @@
 				const userId = userData.id;
 			}
 		}
+
+		language = languageMappings[language] ? languageMappings[language] : "{{ site.language_default }}";
 	}
-	console.log(language);
 	</script>
 	{% assign translation = site.data[language] %}
 	{{ language }}
