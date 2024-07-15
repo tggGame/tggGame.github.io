@@ -21,11 +21,58 @@
 			<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css" />
 			<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style-wide.css" />
 		</noscript>
+		<script>
+			const languageMappings = {
+				'zh-CN': 'cn',
+				'zh': 'cn'
+			}
+			let language = "{{ site.language_default }}";
+			// 获取浏览器的语言
+			if(navigator.language || navigator.userLanguage) {
+				language = navigator.language || navigator.userLanguage;
+			} else {
+				// 获取 URL fragment 部分
+				const hash = window.location.hash;
+		
+				// 去掉开头的 '#' 字符
+				const cleanHash = hash.startsWith('#') ? hash.substring(1) : hash;
+		
+				// 解析参数
+				const urlParams = new URLSearchParams(cleanHash);
+		
+				// 获取 tgWebAppData 参数
+				const tgWebAppDataEncoded = urlParams.get('tgWebAppData');
+				if (tgWebAppDataEncoded) {
+					// URL 解码 tgWebAppData 参数
+					const decodedData = decodeURIComponent(decodeURIComponent(tgWebAppDataEncoded));
+		
+					// 解析查询字符串
+					const tgWebAppParams = new URLSearchParams(decodedData);
+					// 获取 user 参数
+					const userParam = tgWebAppParams.get('user');
+					if (userParam) {
+						// 解析 JSON 数据
+						const userData = JSON.parse(userParam);
+							
+						// 获取用户语言设置
+						language = userData.language_code;
+						const userId = userData.id;
+					}
+				}
+			}
+			language = languageMappings[language] ? languageMappings[language] : "{{ site.language_default }}";
+		
+			document.addEventListener("DOMContentLoaded", function() {
+				var langElement = document.getElementById("language-placeholder");
+				langElement.innerText = `{% assign language = ${language}%}`
+			});
+		</script>
 		<!--[if lte IE 8]><script src="{{ site.baseurl }}/assets/css/ie/html5shiv.js"></script><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="{{ site.baseurl }}/assets/css/ie/v8.css" /><![endif]-->
 	</head>
 	<body>
 
+		<div id="language-placeholder" style="display:none;">{{ site.language_default }}</div>
 		<!-- Header -->
 			<div id="header">
 						
