@@ -62,7 +62,7 @@
 			}
 			language = languageMappings[language] ? languageMappings[language] : "{{ site.language_default }}";
 		console.log(language);
-			`{% assign language=${language} %}`
+			`{% assign language = ${language} %}`
 		</script>
 		<!--[if lte IE 8]><script src="{{ site.baseurl }}/assets/css/ie/html5shiv.js"></script><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="{{ site.baseurl }}/assets/css/ie/v8.css" /><![endif]-->
