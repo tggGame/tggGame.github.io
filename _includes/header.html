@@ -21,7 +21,7 @@
 			<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css" />
 			<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style-wide.css" />
 		</noscript>
-		<script>
+		<!-- <script>
 			const languageMappings = {
 				'zh-CN': 'cn',
 				'zh': 'cn'
@@ -61,18 +61,12 @@
 				}
 			}
 			language = languageMappings[language] ? languageMappings[language] : "{{ site.language_default }}";
-		console.log(language);
-			`{% assign language = ${language} %}`
-		</script>
+		</script> -->
 		<!--[if lte IE 8]><script src="{{ site.baseurl }}/assets/css/ie/html5shiv.js"></script><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="{{ site.baseurl }}/assets/css/ie/v8.css" /><![endif]-->
 	</head>
 	<body>
 
-		<div id="language-placeholder" style="display:none;">{{ site.language_default }}</div>
-		{{ language }}cc
-		{% assign translation = site.data[language] %}
-	n{{ translation.play-to-earn }}a
 		<!-- Header -->
 			<div id="header">
 						
