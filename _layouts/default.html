@@ -1,6 +1,6 @@
 {% include header.html %}
 <script>
-	let language = site.language_default;
+	let language = "{{ site.language_default }}";
 	// 获取浏览器的语言
 	if(navigator.language || navigator.userLanguage) {
 		language = navigator.language || navigator.userLanguage;
