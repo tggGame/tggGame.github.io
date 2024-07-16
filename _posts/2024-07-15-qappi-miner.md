@@ -4,7 +4,7 @@ title:  "火箭质押 Qappi Minner"
 categories: [ 质押挖矿 ]
 image: https://cdn.jsdelivr.net/gh/tggGame/tggGame.github.io/assets/images/qappi-minner.webp
 ---
-Qappi Minner 也是一款质押挖矿需要 GAS 费用撸的游戏，里面的原则就是做任务获得 qap币，其次就是飞行免费挖矿，请注意这里是需要大家提供 GAS 费用的，也就是每次领取 QAP 的时候都需要一顶的 GAS 费用，请谨慎玩。那么我们就来简单的了解下这个游戏的玩法
+Qappi Minner 也是一款质押挖矿需要 GAS 费用撸的游戏，里面的原则就是做任务获得 qap币，其次就是飞行免费挖矿，请注意这里是需要大家提供 GAS 费用的，也就是每次领取 QAP 的时候都需要一顶的 GAS 费用，请谨慎玩，存在骗 GAS 的嫌疑。那么我们就来简单的了解下这个游戏的玩法
 
 [点击打开官方游戏地址](https://t.me/QappiMinerBot?start=1712464860)
 
