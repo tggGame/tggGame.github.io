@@ -19,7 +19,7 @@ image: https://cdn.jsdelivr.net/gh/tggGame/tggGame.github.io/assets/images/crazy
 下面是这个游戏的三个菜单
 
 <div align=center>
-    <img alt="crazy-camels" src="https://cdn.jsdelivr.net/gh/tggGame/tggGame.github.io/assets/images/crazy-camels-tab.webp" width="50%">
+    <img alt="crazy-camels" src="https://cdn.jsdelivr.net/gh/tggGame/tggGame.github.io/assets/images/crazy-camels-tab.webp" width="70%">
 </div>
 
 ### 挖矿主界面
@@ -29,7 +29,7 @@ image: https://cdn.jsdelivr.net/gh/tggGame/tggGame.github.io/assets/images/crazy
 第二个界面就是升级资源界面了
 
 <div align=center>
-    <img alt="crazy-camels-boosters" src="https://cdn.jsdelivr.net/gh/tggGame/tggGame.github.io/assets/images/crazy-camels-boosters.webp" width="50%">
+    <img alt="crazy-camels-boosters" src="https://cdn.jsdelivr.net/gh/tggGame/tggGame.github.io/assets/images/crazy-camels-boosters.webp" width="70%">
 </div>
 
 这个界面就是升级3个道具的装备了，每个等级都会对应不同的装备能力，比如我这里 22级的水资源，就可以每次让骆驼跑 13500 秒，也就是3.75个小时，15级的速度就可以每秒挖矿21个币，9级的道具就可以有3次的95秒2倍的挖矿速度。
@@ -40,7 +40,7 @@ image: https://cdn.jsdelivr.net/gh/tggGame/tggGame.github.io/assets/images/crazy
 第三个界面就是做任务赚金币
 
 <div align=center>
-    <img alt="crazy-camels-task" src="https://cdn.jsdelivr.net/gh/tggGame/tggGame.github.io/assets/images/crazy-camels-task.webp" width="50%">
+    <img alt="crazy-camels-task" src="https://cdn.jsdelivr.net/gh/tggGame/tggGame.github.io/assets/images/crazy-camels-task.webp" width="70%">
 </div>
 
 这里截图的是我任务都基本做完了，因此大家最好这里的任务都做一下，一般有 follow就是让你去关注其他频道，无伤大雅，直接去关注，关注完了回来点击领取就行了。然后就可以得到金币了，有一些任务是需要你邀请好友或者领取多少次挖矿的次数的，那种只能等你自己做完任务，先把其他能做的任务做完。
@@ -49,7 +49,7 @@ image: https://cdn.jsdelivr.net/gh/tggGame/tggGame.github.io/assets/images/crazy
 最后一个界面就是邀请好友赚金币了，也就是你邀请的越多，这些好友会提供 10%的挖矿速度给你，二级的好友还有 2.5%的挖矿速度给你，是不是很惊喜
 
 <div align=center>
-    <img alt="crazy-camels-invite" src="https://cdn.jsdelivr.net/gh/tggGame/tggGame.github.io/assets/images/crazy-camels-invite.webp" width="50%">
+    <img alt="crazy-camels-invite" src="https://cdn.jsdelivr.net/gh/tggGame/tggGame.github.io/assets/images/crazy-camels-invite.webp" width="70%">
 </div>
 
 以上就是整个游戏的教程了。
