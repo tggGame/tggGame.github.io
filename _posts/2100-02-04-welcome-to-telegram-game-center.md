@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "疯狂的骆驼挖矿"
 categories: [ Jekyll ]
 image: assets/images/demo1.jpg
 ---
