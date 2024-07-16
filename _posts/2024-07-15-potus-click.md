@@ -20,56 +20,56 @@ tags: [featured]
 下面是这个游戏的三个菜单
 
 <div align=center>
-    <img alt="crazy-camels" src="https://cdn.jsdelivr.net/gh/tggGame/tggGame.github.io/assets/images/potus-click-main.webp" width="70%">
+    <img alt="potus-click-main" src="https://cdn.jsdelivr.net/gh/tggGame/tggGame.github.io/assets/images/potus-click-main.webp" width="70%">
 </div>
 
 ### 任务中心
 第一个就是任务中心了，就是完全的做任务领取奖励，这部分比较简单，大家跟着做就行了。
 
 <div align=center>
-    <img alt="crazy-camels" src="https://cdn.jsdelivr.net/gh/tggGame/tggGame.github.io/assets/images/potus-click-first.webp" width="70%">
+    <img alt="potus-click-first" src="https://cdn.jsdelivr.net/gh/tggGame/tggGame.github.io/assets/images/potus-click-first.webp" width="70%">
 </div>
 
 #### one-time tasks
 就是一次性任务，做完就没有了，这种任务奖励也比较简单，就是单纯去关注其他频道，然后送你奖励。
 
 <div align=center>
-    <img alt="crazy-camels" src="https://cdn.jsdelivr.net/gh/tggGame/tggGame.github.io/assets/images/potus-click-one-time.webp" width="70%">
+    <img alt="potus-click-one-time" src="https://cdn.jsdelivr.net/gh/tggGame/tggGame.github.io/assets/images/potus-click-one-time.webp" width="70%">
 </div>
 
 #### Status task
 就是达成选举任务，帮你获得更多空投机会，这种大家随意选择就行了，只要达成任务就有机会获得空投。
 
 <div align=center>
-    <img alt="crazy-camels" src="https://cdn.jsdelivr.net/gh/tggGame/tggGame.github.io/assets/images/potus-click-status.webp" width="70%">
+    <img alt="potus-click-status" src="https://cdn.jsdelivr.net/gh/tggGame/tggGame.github.io/assets/images/potus-click-status.webp" width="70%">
 </div>
 
 #### daily rewards
 每日签到，这种也比较简单就是每天去签到就可以获得奖励
 
 <div align=center>
-    <img alt="crazy-camels" src="https://cdn.jsdelivr.net/gh/tggGame/tggGame.github.io/assets/images/potus-click-daily.webp" width="70%">
+    <img alt="potus-click-daily" src="https://cdn.jsdelivr.net/gh/tggGame/tggGame.github.io/assets/images/potus-click-daily.webp" width="70%">
 </div>
 
 #### State tasks
 这种也是选举任务奖励了，大家一个个选择慢慢达成即可
 
 <div align=center>
-    <img alt="crazy-camels" src="https://cdn.jsdelivr.net/gh/tggGame/tggGame.github.io/assets/images/potus-click-state.webp" width="70%">
+    <img alt="potus-click-state" src="https://cdn.jsdelivr.net/gh/tggGame/tggGame.github.io/assets/images/potus-click-state.webp" width="70%">
 </div>
 
 ### POTUS CLICK
 第二个界面就是主界面了，这是挖矿界面，大家可以看到我这里是每 4 秒回产生一个币，最多可以产生 7200个，当满了以后你必须要点击领取，不然就不会再次产生币了。
 
 <div align=center>
-    <img alt="crazy-camels" src="https://cdn.jsdelivr.net/gh/tggGame/tggGame.github.io/assets/images/potus-click-main.webp" width="70%">
+    <img alt="potus-click-main" src="https://cdn.jsdelivr.net/gh/tggGame/tggGame.github.io/assets/images/potus-click-main.webp" width="70%">
 </div>
 
 ### 邀请好友
 这里也可以邀请好友，你邀请的越多，你的奖励越多，因为好友的 3% 会给你奖励，如果这个用户开通 telegram 会员，你的奖励则是双倍的 6%。
 
 <div align=center>
-    <img alt="crazy-camels" src="https://cdn.jsdelivr.net/gh/tggGame/tggGame.github.io/assets/images/potus-click-invite.webp" width="70%">
+    <img alt="potus-click-invite" src="https://cdn.jsdelivr.net/gh/tggGame/tggGame.github.io/assets/images/potus-click-invite.webp" width="70%">
 </div>
 
 ### 如何提现
