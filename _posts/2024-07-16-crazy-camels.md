@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "疯狂的骆驼挖矿"
+title:  "疯狂的骆驼挖矿 Crazy Camels"
 categories: [ 挖矿游戏 ]
 image: https://cdn.jsdelivr.net/gh/tggGame/tggGame.github.io/assets/images/crazy-camels.webp
 ---
