@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "火箭质押 Qappi Minner"
+title:  "火箭质押 Qappi Minner（非零撸）"
 categories: [ 质押挖矿 ]
 image: https://cdn.jsdelivr.net/gh/tggGame/tggGame.github.io/assets/images/qappi-minner.webp
 ---
