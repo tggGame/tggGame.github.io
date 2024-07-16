@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "疯狂的骆驼挖矿"
-categories: [ Jekyll ]
+categories: [ 挖矿游戏 ]
 image: https://cdn.jsdelivr.net/gh/tggGame/tggGame.github.io/assets/images/crazy-camels.webp
 ---
 疯狂的骆驼挖矿是一款纯粹的做任务零撸的游戏，目前游戏币还没有上线提现功能，当前还是在挖矿阶段，不过该游戏由 venom 官方带流量，后续可见能提现的概率比较大，因此大家现阶段只管撸就行了，下面就说一下该游戏的一些教程。
