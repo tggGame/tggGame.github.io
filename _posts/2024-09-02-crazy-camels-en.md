@@ -1,4 +1,3 @@
-```markdown
 ---
 layout: post
 title:  "Crazy Camels Mining"
@@ -59,4 +58,3 @@ That concludes the entire game tutorial.
 To help you earn more coins faster, I suggest prioritizing the upgrade of your mining speed. You can manage mining time by frequently collecting, and also complete all tasks. The third item doesn’t need upgrading initially. Once your mining speed reaches around level 15, you can start upgrading the mining time. For detailed gameplay tips, you can join our Telegram group for discussion.
 
 [Mining Airdrop Game Discussion Group](https://t.me/luaridrop)
-```
